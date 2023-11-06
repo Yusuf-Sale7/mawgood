@@ -1,0 +1,288 @@
+{
+  "auth": {
+    "icorrect_password": "كلمة المرور غير صحيحة!",
+    "user_not_found": "هذا المستخدم غير موجود!",
+    "missing_credentials": "من فضلك تأكد من اسم المستخدم وكلمة السر!",
+    "email_exists": "هذا الإيميل موجود بالفعل!",
+    "username_exists": "اسم المستخدم موجود بالفعل!",
+    "username_not_exists": "اسم المستخدم غير موجود!",
+    "profile_updated": "تم تحديث الحساب بنجاح",
+    "current_pass_wrong": "كلمة المرور الحالية غير صحيحة!",
+    "password_updated": "تم تحديث كلمة المرور بنجاح",
+    "invalid_token": "Token غير صحيح!",
+    "end_session": "انتهت مهلة الجلسة، من فضلك سجل دخول من جديد!",
+    "email_required": "البريد الإلكتروني مطلوب!",
+    "email_invalid": "البريد الإلكتروني غير صحيح!",
+    "email_or_username_required": "البريد الإلكتروني أو اسم المستخدم مطلوب!",
+    "email_or_username_invalid": "البريد الإلكتروني أو اسم المستخدم غير صالح!",
+    "password_required": "كلمة المرور مطلوبة!",
+    "current_password_required": "كلمة المرور الحالية مطلوبة!",
+    "new_password_required": "كلمة المرور الجديدة مطلوبة!",
+    "min_password": "كلمة المرور يجب علي الاقل أن تحتوي علي 6 أرقام، حروف أو رموز!",
+    "max_password": "كلمة المرور لا يمكن أن تتخطي 30 رقم، حروف أو رموز!",
+    "first_name_required": "الاسم الأول مطلوب!",
+    "first_name_max": "الاسم الأول لا يمكن أن يتخطي 20 حرف!",
+    "last_name_required": "الاسم الأحير مطلوب!",
+    "last_name_max": "الاسم الأخير لا يمكن أن يتخطي 20 حرف!",
+    "username_required": "اسم المستخدم مطلوب",
+    "username_invalid": "اسم المستخدم غير صحيح!",
+    "username_min": "اسم المستخدم يجب علي الاقل أن يحتوي علي 6 حروف أو أرقام!",
+    "username_max": "اسم المستخدم لا يمكن أن يتخطي 20 حروف أو أرقام!",
+    "city_required": "من فضلك اختر مدينة!",
+    "state_required": "المركز مطلوب!",
+    "state_max": "المركز لا يجب أن يتخطي 20 حرف!",
+    "street_required": "الشارع مطلوب!",
+    "street_max": "الشارع لا يجب أن يتخطي 30 حرف!",
+    "mobile_required": "رقم الهاتف مطلوب!",
+    "mobile_invalid": "رقم الهاتف غير صحيح"
+  },
+  "common": {
+    "currency": "جنية",
+    "api_error": "حدث خطأ ما، من فضلك حاول مرة أخري!",
+    "shop_now": "تسوق الآن",
+    "load_more": "تحميل المزيد",
+    "sorting": {
+      "title": "الترتيب",
+      "low_to_high": "من الأقل للأعلي",
+      "high_to_low": "من الأعلي للأقل"
+    },
+    "showing": {
+      "title": "عرض"
+    },
+    "no_category_match": "عذراً، لا يوجد قسم مطابق لـ",
+    "no_search_results": "عذراً، لا يوجد منتجات مطابقة للبحث!",
+    "no_product": "عذراً، لا يوجد منتج!",
+    "no_category_products": "عذراً، لا يوجد منتجات في هذا القسم!",
+    "products_count": "من المنتجات",
+    "rate_count": "تقييمات",
+    "add_to_fav_msg": "تمت إضافة المنتج إلي المفضلة!",
+    "remove_from_fav_msg": "تم حذف المنتج من المفضلة!",
+    "update_cart_msg": "تم تحديث عربة التسوق!"
+  },
+  "topbar": {
+    "my_account": {
+      "account": "حسابي",
+      "profile": "حسابي",
+      "signin": "تسجيل الدخول",
+      "signup": "تسجيل جديد",
+      "signout": "تسجيل الخروج"
+    },
+    "ar": "AR",
+    "en": "EN",
+    "search_placeholder": "بحث علي منتجات",
+    "customer_service": "خدمة العملاء"
+  },
+  "navbar": {
+    "home": "الرئيسية",
+    "contact": "تواصل معنا"
+  },
+  "breadcrumb": {
+    "home": "الرئيسية",
+    "profile": "حسابي",
+    "favorites": "المفضلة",
+    "cart": "عربة التسوق",
+    "checkout": "الدفع"
+  },
+  "footer": {
+    "subscribed": "شكراً لك لإشتراكك في نشرة موجود!",
+    "info": {
+      "title": "كن علي تواصل",
+      "text": "تُعد منصة موجود الخيار الأفضل للتسوق عبر الانترنت في مصر، لالتزامها بتقديم تجربة عملاء بمستوى عالمي. يحتوي موقع موجود مصر على ملايين المنتجات الأصلية من المنتجات الإلكترونية للأزياء، وألعاب الأطفال، والأدوات المنزلية، والأثاث، ولوازم الرياضة، والمنتجات الخارجية، ولوازم البيبي، ولوازم الجمال، والكتب، والأدوات المكتبية، ولوازم السوبر ماركت، وأكتر بكتير.",
+      "address": "مصر"
+    },
+    "quick_shop": {
+      "title": "تسوق أسرع",
+      "home": "الرئيسية",
+      "smartphones": "موبايلات",
+      "laptops": "لاب توب",
+      "men_fashion": "أزياء رجالي",
+      "women_fashion": "أزياء حريمي"
+    },
+    "account": {
+      "title": "حسابي",
+      "profile": "حسابي",
+      "signin": "تسجيل الدخول",
+      "signup": "تسجيل جديد",
+      "cart": "عربة التسوق",
+      "favorites": "المفضلة"
+    },
+    "newsletter": {
+      "title": "تطلع للمزيد",
+      "text": "تابع أحدث المنتجات عبر البريد الإلكتروني من موجود",
+      "email_placeholder": "بريدك الإلكتروني",
+      "subscribe": "إشتراك",
+      "follow": "تابعنا"
+    },
+    "copywrites": {
+      "title": "جميع الحقوق محفوظة 2023.",
+      "brand": "موجود"
+    }
+  },
+  "categories": {
+    "title": "الأقسام",
+    "smartphones": "موبايلات",
+    "laptops": "لاب توب",
+    "clothes": {
+      "title": "ملابس",
+      "men": "رجال",
+      "women": "نساء",
+      "children": "أطفال"
+    }
+  },
+  "signin": {
+    "title": "تسجيل الدخول",
+    "email": "البريد الإلكتروني أو اسم المستخدم",
+    "password": "كلمة المرور",
+    "signin_btn": "تسجيل الدخول",
+    "new_account": "ليس لديك حساب؟",
+    "signup_btn": "تسجيل جديد",
+    "forgot_password": "نسيت كلمة المرور؟"
+  },
+  "signup": {
+    "title": "تسجيل جديد",
+    "edit_profile": "تعديل الملف الشخصي",
+    "first_name": "الاسم الأول",
+    "first_name_placeholder": "مثال: محمد",
+    "last_name": "الاسم الأخير",
+    "last_name_placeholder": "مثال: أحمد",
+    "email": "البريد الإلكتروني",
+    "username": "اسم المستخدم",
+    "username_placeholder": "مثال: mohamed123",
+    "mobile": "رقم الهاتف",
+    "city": "المدينة",
+    "cities": {
+      "select_city": "اختر مدينة",
+      "cairo": "القاهرة",
+      "menoufia": "المنوفية",
+      "alexandria": "الإسكندرية"
+    },
+    "state": "المركز",
+    "state_placeholder": "مثال: شبين الكوم",
+    "street": "الشارع",
+    "street_placeholder": "مثال: شارع 123",
+    "password": "كلمة المرور (علي الأقل 6 أرقام)",
+    "signup_btn": "تسجيل",
+    "update_btn": "تحديث"
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "username": "اسم المستخدم",
+    "mobile": "رقم الهاتف",
+    "city": "المدينة",
+    "state": "المركز",
+    "street": "الشارع",
+    "edit_profile": "تعديل الحساب",
+    "edit_password": "تعديل كلمة المرور"
+  },
+  "edit_password": {
+    "title": "تعديل كلمة المرور",
+    "current": "كلمة المرور الحالية",
+    "new": "كلمة المرور الجديدة",
+    "update_btn": "تحديث"
+  },
+  "favorites": {
+    "no_items": "لا توجد منتجات مفضلة!!"
+  },
+  "cart": {
+    "no_items": "لا توجد منتجات في عربة التسوق!",
+    "products": "المنتج",
+    "price": "السعر",
+    "quantity": "الكمية",
+    "size": "الحجم",
+    "color": "اللون",
+    "total": "الإجمالي",
+    "remove": "حذف",
+    "cart_summary": "ملخص الطلب",
+    "shipping": "التوصيل",
+    "proceed_to_checkout": "تأكيد الطلب"
+  },
+  "checkout": {
+    "address": "العنوان",
+    "order_total": "إجمالي التكلفة",
+    "products": "المنتجات",
+    "shipping": "التوصيل",
+    "total": "الإجمالي",
+    "place_order": "طلب"
+  },
+  "top_categories": {
+    "first": {
+      "header": "أزياء رجالي",
+      "description": "تسوق أفضل الملابس الرجالية مع خيارات متعددة للشراء"
+    },
+    "second": {
+      "header": "أزياء حريمي",
+      "description": "تسوق أفضل الملابس النسائية مع خيارات متعددة للشراء"
+    },
+    "third": {
+      "header": "أزياء الأطفال",
+      "description": "تسوق أفضل الملابس للأطفال مع خيارات متعددة للشراء"
+    }
+  },
+  "offers": {
+    "first": {
+      "discount": "خصم 20%",
+      "header": "عرض خاص"
+    },
+    "second": {
+      "discount": "خصم 30%",
+      "header": "عرض مميز"
+    }
+  },
+  "featured": {
+    "first": "منتجات أصلية",
+    "second": "توصيل مجاني",
+    "third": "14 يوم تجربة",
+    "fourth": "24/7 دعم"
+  },
+  "headers": {
+    "top_products": "أفضل المنتجات",
+    "categories": "الأقسام",
+    "partners": "شركاء النجاح"
+  },
+  "search": {
+    "category_filter": "القسم",
+    "price_filter": "السعر",
+    "rate_filter": "التقييم",
+    "all_categories": "كل الأقسام",
+    "all_prices": "كل الأسعار",
+    "all_rates": "كل التقييمات",
+    "results_for": "نتائج لـ ",
+    "more_than": "أكثر من"
+  },
+  "product": {
+    "add_to_cart": "إضافة إلي عربة التسوق",
+    "sizes": "الأحجام",
+    "colors": "الألوان",
+    "description": "الوصف",
+    "reviews": "التقييمات",
+    "comments": "التعليقات",
+    "no_comments": "لا يوجد تعليقات بعد",
+    "leave_review": "تقييم المنتج",
+    "your_rating": "تقييمك",
+    "your_comment": "تعليقك",
+    "send_review": "إرسال التقييم",
+    "similar": "قد يعجبك أيضاً"
+  },
+  "contact": {
+    "title": "تواصل معنا",
+    "name": "الإسم",
+    "name_required": "الإسم مطلوب!",
+    "email": "البريد الإلكتروني",
+    "email_required": "البريد الإلكتروني مطلوب!",
+    "subject": "الموضوع",
+    "subject_required": "حقل الموضوع مطلوب!",
+    "message": "رسالتك",
+    "message_required": "حقل الرسالة مطلوب!",
+    "send_message": "إرسال"
+  },
+  "not_found": {
+    "title": "عفوً، الصفحة غير موجودة!",
+    "referral_link": "الذهاب إلى "
+  },
+  "reset_password": {
+    "title": "قريباً...",
+    "description": "هذة الخدمة ما زالت تحت التطوير."
+  }
+}

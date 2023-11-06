@@ -1,0 +1,288 @@
+{
+  "auth": {
+    "icorrect_password": "Password is incorrect!",
+    "user_not_found": "User not found!",
+    "missing_credentials": "Missing email or password!",
+    "email_exists": "Email already exists!",
+    "username_exists": "Username already exists!",
+    "username_not_exists": "Username not exists!",
+    "profile_updated": "Profile updated successfully!",
+    "current_pass_wrong": "Current password is wrong!",
+    "password_updated": "Password updated successfully!",
+    "invalid_token": "Invalid access token!",
+    "end_session": "Session has been expired, please signin again!",
+    "email_required": "Email required!",
+    "email_invalid": "Email is invalid!",
+    "email_or_username_required": "Email or username is required!",
+    "email_or_username_invalid": "Email or username is invalid!",
+    "password_required": "Password required!",
+    "current_password_required": "Current password required!",
+    "new_password_required": "New password required!",
+    "min_password": "Password must contains at least 6 chars!",
+    "max_password": "Password can not contains more than 30 chars!",
+    "first_name_required": "First name required!",
+    "first_name_max": "First name can not contains more than 20 chars!",
+    "last_name_required": "Last name required!",
+    "last_name_max": "Last name can not contains more than 20 chars!",
+    "username_required": "Username required!",
+    "username_invalid": "Username invalid!",
+    "username_min": "Username must contains at least 3 chars!",
+    "username_max": "Username can not contains more than 20 chars!",
+    "city_required": "Please select a city!",
+    "state_required": "State required!",
+    "state_max": "State can not contains more than 20 chars!",
+    "street_required": "Street required!",
+    "street_max": "Street can not contains more than 30 chars!",
+    "mobile_required": "Mobile number required!",
+    "mobile_invalid": "Mobile number is invalid!"
+  },
+  "common": {
+    "currency": "LE",
+    "api_error": "An error occured, please try again!",
+    "shop_now": "Shop Now",
+    "load_more": "Load more",
+    "sorting": {
+      "title": "Sorting",
+      "low_to_high": "Low to high",
+      "high_to_low": "High to low"
+    },
+    "showing": {
+      "title": "Showing"
+    },
+    "no_category_match": "Sorry, there is no category matches",
+    "no_search_results": "Sorry, there is no products matches your search!",
+    "no_product": "Sorry, there is no product!",
+    "no_category_products": "Sorry, there is no products in this category!",
+    "products_count": "Products",
+    "rate_count": "Reviews",
+    "add_to_fav_msg": "Product added to favorites!",
+    "remove_from_fav_msg": "Product removed from favorites!",
+    "update_cart_msg": "Cart updated successfully!"
+  },
+  "topbar": {
+    "my_account": {
+      "account": "My Account",
+      "profile": "Profile",
+      "signin": "Sign in",
+      "signup": "Sign up",
+      "signout": "Signout"
+    },
+    "ar": "عربي",
+    "en": "EN",
+    "search_placeholder": "Search for products",
+    "customer_service": "Customer Service"
+  },
+  "navbar": {
+    "home": "Home",
+    "contact": "Contact"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "profile": "Profile",
+    "favorites": "Favorites",
+    "cart": "Cart",
+    "checkout": "Checkout"
+  },
+  "footer": {
+    "subscribed": "Thank you for subscribibg in MAWGOOD newsletter!",
+    "info": {
+      "title": "Get in touch",
+      "text": "Offering a world-class customer experience, Mawgood is the top choice for online shopping in Egypt. From electronics products to fashion, kids’ toys, baby products, homeware, furniture, sporting and outdoor products, beauty products, books and stationery, groceries, and much, much more.",
+      "address": "Egypt"
+    },
+    "quick_shop": {
+      "title": "Quick Shop",
+      "home": "Home",
+      "smartphones": "Smartphones",
+      "laptops": "Laptops",
+      "men_fashion": "Men's Fashion",
+      "women_fashion": "Women's Fashion"
+    },
+    "account": {
+      "title": "My Account",
+      "profile": "Profile",
+      "signin": "Sign in",
+      "signup": "Sign up",
+      "cart": "Cart",
+      "favorites": "Favorites"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "text": "Follow up the latest products from MAWGOOD",
+      "email_placeholder": "Your Email Address",
+      "subscribe": "Subscribe",
+      "follow": "Follow us"
+    },
+    "copywrites": {
+      "title": "All Rights Reserved 2023.",
+      "brand": "MAWGOOD"
+    }
+  },
+  "categories": {
+    "title": "Categories",
+    "smartphones": "Smartphones",
+    "laptops": "Laptops",
+    "clothes": {
+      "title": "Clothes",
+      "men": "Men's Fashion",
+      "women": "Women's Fashion",
+      "kids": "Children"
+    }
+  },
+  "signin": {
+    "title": "Sign In",
+    "email": "Email or Username",
+    "password": "Password",
+    "signin_btn": "Sign In",
+    "new_account": "Don't have account?",
+    "signup_btn": "Sign up",
+    "forgot_password": "Forgot password?"
+  },
+  "signup": {
+    "title": "Sign up",
+    "edit_profile": "Edit Profile",
+    "first_name": "First Name",
+    "first_name_placeholder": "EX: Mohamed",
+    "last_name": "Last Name",
+    "last_name_placeholder": "EX: Ahmad",
+    "email": "Email",
+    "username": "Username",
+    "username_placeholder": "EX: mohamed123",
+    "mobile": "Mobile Number",
+    "city": "City",
+    "cities": {
+      "select_city": "Select City",
+      "cairo": "Cairo",
+      "menoufia": "Menoufia",
+      "alexandria": "Alexandria"
+    },
+    "state": "State",
+    "state_placeholder": "EX: Shebin El-Kom",
+    "street": "Street",
+    "street_placeholder": "EX: 123 Street",
+    "password": "Password (At least 6 chars)",
+    "signup_btn": "Sign up",
+    "update_btn": "Update"
+  },
+  "profile": {
+    "title": "Profile",
+    "name": "Name",
+    "email": "Email",
+    "username": "Username",
+    "mobile": "Mobile Number",
+    "city": "City",
+    "state": "State",
+    "street": "Street",
+    "edit_profile": "Edit Profile",
+    "edit_password": "Edit Password"
+  },
+  "edit_password": {
+    "title": "Edit password",
+    "current": "Current Password",
+    "new": "New Password",
+    "update_btn": "Update Password"
+  },
+  "favorites": {
+    "no_items": "There are no favorite products!"
+  },
+  "cart": {
+    "no_items": "There are no products in cart!",
+    "products": "Product",
+    "price": "Price",
+    "quantity": "Quantity",
+    "size": "Size",
+    "color": "Color",
+    "total": "Total",
+    "remove": "Remove",
+    "cart_summary": "CART SUMMARY",
+    "shipping": "Shipping",
+    "proceed_to_checkout": "Proceed To Checkout"
+  },
+  "checkout": {
+    "address": "Address",
+    "order_total": "Order Total",
+    "products": "Products",
+    "shipping": "Shipping",
+    "total": "Total",
+    "place_order": "Place Order"
+  },
+  "top_categories": {
+    "first": {
+      "header": "Men Fashion",
+      "description": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    "second": {
+      "header": "Women Fashion",
+      "description": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    },
+    "third": {
+      "header": "Kids Clothing",
+      "description": "Lorem rebum magna amet lorem magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum diam"
+    }
+  },
+  "offers": {
+    "first": {
+      "discount": "Save 20%",
+      "header": "Special Offer"
+    },
+    "second": {
+      "discount": "Save 30%",
+      "header": "Special Offer"
+    }
+  },
+  "featured": {
+    "first": "Original Products",
+    "second": "Free Shipping",
+    "third": "14-Day Return",
+    "fourth": "24/7 Support"
+  },
+  "headers": {
+    "top_products": "Top Products",
+    "categories": "Categories",
+    "partners": "Success Partners"
+  },
+  "search": {
+    "category_filter": "Category",
+    "price_filter": "Price",
+    "rate_filter": "Rate",
+    "all_categories": "All Categories",
+    "all_prices": "All Prices",
+    "all_rates": "All Rates",
+    "results_for": "results for ",
+    "more_than": "More than"
+  },
+  "product": {
+    "add_to_cart": "Add To Cart",
+    "sizes": "Sizes",
+    "colors": "Colors",
+    "description": "Description",
+    "reviews": "Reviews",
+    "comments": "Comments",
+    "no_comments": "No comments yet",
+    "leave_review": "Leave a review",
+    "your_rating": "Your Rating",
+    "your_comment": "Your Comment",
+    "send_review": "Leave Your Review",
+    "similar": "YOU MAY ALSO LIKE"
+  },
+  "contact": {
+    "title": "Contct Us",
+    "name": "Your Name",
+    "name_required": "Name required!",
+    "email": "Your Email",
+    "email_required": "Email required!",
+    "subject": "Subject",
+    "subject_required": "Subject required!",
+    "message": "Your Message",
+    "message_required": "Message required!",
+    "send_message": "Send Message"
+  },
+  "not_found": {
+    "title": "Sorry, Page not found!",
+    "referral_link": "Go to "
+  },
+  "reset_password": {
+    "title": "Coming Soon...",
+    "description": "This service still under development."
+  }
+}
