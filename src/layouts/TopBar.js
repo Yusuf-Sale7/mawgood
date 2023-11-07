@@ -67,7 +67,7 @@ function TopBar() {
             )}
           </NavLink>
         </div>
-        <div className="col-lg-4 col-12 text-left order-2">
+        <div className="col-lg-4 col-12 text-left order-2 py-2">
           <form onSubmit={handleSearch}>
             <div className="input-group">
               <input

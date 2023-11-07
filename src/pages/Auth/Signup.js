@@ -55,7 +55,7 @@ function Signup() {
   };
 
   return (
-    <div className="container pt-5">
+    <div className="container pt-2 pt-lg-5">
       <SectionHeader
         title={t("signup.title")}
         className="section-title position-relative text-uppercase mb-4"

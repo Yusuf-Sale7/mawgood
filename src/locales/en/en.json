@@ -73,8 +73,7 @@
     "customer_service": "Customer Service"
   },
   "navbar": {
-    "home": "Home",
-    "contact": "Contact"
+    "home": "Home"
   },
   "breadcrumb": {
     "home": "Home",
@@ -116,7 +115,8 @@
     "copywrites": {
       "title": "All Rights Reserved 2023.",
       "brand": "MAWGOOD"
-    }
+    },
+    "contact": "Contact"
   },
   "categories": {
     "title": "Categories",

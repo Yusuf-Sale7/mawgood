@@ -16,14 +16,14 @@ function TopProducts() {
   }, []);
 
   return (
-    <div className="container-fluid pt-5 pb-3">
+    <div className="container-fluid pt-2 pt-lg-5 pb-3">
       <SectionHeader title={t("headers.top_products")} />
       <div className="row px-xl-5">
         {isLoading ? (
           <PreLoader />
         ) : (
           topProducts.map((product) => (
-            <Product key={product.id} product={product} page="/" />
+            <Product key={product.id} product={product} page="/" size="sm" />
           ))
         )}
       </div>

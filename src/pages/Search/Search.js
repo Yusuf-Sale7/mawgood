@@ -355,7 +355,7 @@ function Search() {
                 <Product
                   key={product.id}
                   product={product}
-                  size={"lg"}
+                  size={"sm"}
                   page={`${location.pathname}${location.search}`}
                 />
               ))

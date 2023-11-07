@@ -19,7 +19,7 @@ function Categories() {
   }, []);
 
   return (
-    <div className="container-fluid pt-5">
+    <div className="container-fluid pt-2 pt-lg-5">
       <SectionHeader title={t("headers.categories")} />
       <div className="row px-xl-5 pb-3">
         {isLoading ? (

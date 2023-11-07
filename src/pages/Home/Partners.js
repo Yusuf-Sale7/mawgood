@@ -65,7 +65,7 @@ function Partners() {
   }, []);
 
   return (
-    <div className="container-fluid py-5">
+    <div className="container-fluid py-2 pt-lg-5">
       <SectionHeader title={t("headers.partners")} />
       {isLoading ? (
         <PreLoader />
@@ -84,6 +84,7 @@ function Partners() {
                     alt="Partner image"
                     width={"100%"}
                     height={"156"}
+                    className="partner-img"
                   />
                 </div>
               ))}

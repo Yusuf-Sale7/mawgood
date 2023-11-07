@@ -65,7 +65,7 @@ function Navbar() {
           </nav>
         </div>
         <div className="col-md-8 col-lg-9">
-          <nav className="navbar navbar-expand-md bg-dark navbar-dark py-3 py-lg-0 px-0">
+          <nav className="navbar navbar-expand-md bg-dark navbar-dark py-3 py-md-0 px-0">
             <NavLink to="/" className="text-decoration-none d-block d-md-none">
               {isEnglish ? (
                 <>
@@ -99,15 +99,24 @@ function Navbar() {
               className="collapse navbar-collapse justify-content-between"
               id="navbarCollapse"
             >
-              <div className="navbar-nav mr-auto pt-3 pt-md-0">
-                <NavLink to="/" className="nav-item nav-link">
-                  {t("navbar.home")}
-                </NavLink>
-                <NavLink to="/contact" className="nav-item nav-link">
-                  {t("navbar.contact")}
-                </NavLink>
+              <div className="navbar-nav mr-auto pt-3 pt-md-0 d-md-none">
+                {isLoading ? (
+                  <FontAwesomeIcon icon={faCircleNotch} spin />
+                ) : (
+                  categories.map((category) => (
+                    <NavLink
+                      key={category.id}
+                      to={category.path}
+                      className="nav-item nav-link"
+                      data-toggle="collapse"
+                      data-target="#navbarCollapse"
+                    >
+                      {isEnglish ? category.name : category.nameAR}
+                    </NavLink>
+                  ))
+                )}
               </div>
-              <div className="navbar-nav ml-auto py-0 d-none d-md-block">
+              <div className="navbar-nav ml-auto py-3 d-none d-md-block">
                 <NavLink to="/profile/favorites" className="btn px-0">
                   <FontAwesomeIcon
                     className="text-primary mx-1"

@@ -73,8 +73,7 @@
     "customer_service": "خدمة العملاء"
   },
   "navbar": {
-    "home": "الرئيسية",
-    "contact": "تواصل معنا"
+    "home": "الرئيسية"
   },
   "breadcrumb": {
     "home": "الرئيسية",
@@ -116,7 +115,8 @@
     "copywrites": {
       "title": "جميع الحقوق محفوظة 2023.",
       "brand": "موجود"
-    }
+    },
+    "contact": "تواصل معنا"
   },
   "categories": {
     "title": "الأقسام",

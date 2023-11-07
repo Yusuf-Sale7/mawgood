@@ -21,7 +21,7 @@ function TopAndOffers() {
   }, []);
 
   return (
-    <div className="container-fluid mb-3">
+    <div className="container-fluid mb-1 mb-lg-3">
       <div className="row px-xl-5">
         {tcIsLoading ? (
           <div className="col-lg-8">

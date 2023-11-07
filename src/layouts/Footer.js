@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
+  faHeadset,
   faMapMarkerAlt,
   faPhoneAlt,
   faTriangleExclamation,
@@ -35,9 +36,9 @@ function Footer() {
   };
 
   return (
-    <div className="container-fluid bg-dark text-secondary mt-5 pt-5">
-      <div className="row pt-5">
-        <div className="col-lg-4 col-md-12 mb-5">
+    <div className="container-fluid bg-dark text-secondary mt-4 mt-lg-5 pt-4 pt-lg-5">
+      <div className="row pt-2 pt-lg-5">
+        <div className="col-lg-4 col-md-12 mb-4 mb-lg-5">
           <h5 className="text-secondary text-uppercase mb-4">
             {t("footer.info.title")}
           </h5>
@@ -57,10 +58,16 @@ function Footer() {
             <FontAwesomeIcon className="text-primary mx-2" icon={faPhoneAlt} />
             <label className="dir-ltr">{customer_service_num}</label>
           </p>
+          <p className="mb-0">
+            <FontAwesomeIcon className="text-primary mx-2" icon={faHeadset} />
+            <NavLink to="/contact" className="text-secondary mb-2">
+              {t("footer.contact")}
+            </NavLink>
+          </p>
         </div>
         <div className="col-lg-8 col-md-12">
           <div className="row">
-            <div className="col-md-4 mb-5">
+            <div className="col-md-4 mb-4 mb-lg-5">
               <h5 className="text-secondary text-uppercase mb-4">
                 {t("footer.quick_shop.title")}
               </h5>

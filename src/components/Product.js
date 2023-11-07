@@ -45,6 +45,8 @@ function Product({ product, size, page }) {
       className={
         size === "lg"
           ? "col-lg-4 col-md-6 col-sm-6 pb-1"
+          : size === "sm"
+          ? "col-lg-4 col-md-6 col-6 pb-1"
           : size === "auto"
           ? ""
           : "col-lg-3 col-md-4 col-sm-6 pb-1"

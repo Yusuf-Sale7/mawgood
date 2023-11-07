@@ -9,7 +9,7 @@ function Profile() {
   const { t } = useTranslation();
 
   return (
-    <div className="container-fluid pt-5">
+    <div className="container-fluid pt-2 pt-lg-5">
       <SectionHeader title={t("profile.title")} />
       <div className="row px-xl-5">
         <div className="col-md-4 col-sm-6 pb-4">

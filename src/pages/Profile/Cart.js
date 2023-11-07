@@ -164,7 +164,7 @@ function Cart() {
               </div>
               <div className="col-lg-4">
                 <SectionHeader title={t("cart.cart_summary")} tag="h5" />
-                <div className="bg-light p-30 mb-5">
+                <div className="bg-light p-30 mb-2 mb-lg-5">
                   <div className="border-bottom pb-2">
                     <div className="d-flex justify-content-between">
                       <h6 className="font-weight-medium">

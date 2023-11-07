@@ -17,7 +17,7 @@ function Offers() {
   }, []);
 
   return (
-    <div className="container-fluid pt-5 pb-3">
+    <div className="container-fluid pt-2 pt-lg-5 pb-3">
       {offersIsLoading ? (
         <div className="row px-xl-5">
           <PreLoader />

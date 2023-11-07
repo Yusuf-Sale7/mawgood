@@ -52,6 +52,7 @@ function Category() {
                 key={product.id}
                 product={product}
                 page={`/category/${category}`}
+                size={"sm"}
               />
             ))
           ) : (

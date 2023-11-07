@@ -50,7 +50,7 @@ function EditProfile() {
   };
 
   return (
-    <div className="container pt-5">
+    <div className="container pt-2 pt-lg-5">
       <SectionHeader
         title={t("signup.edit_profile")}
         className="section-title position-relative text-uppercase mb-4"

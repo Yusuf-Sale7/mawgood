@@ -35,7 +35,7 @@ function Signin() {
   };
 
   return (
-    <div className="container-fluid pt-5">
+    <div className="container-fluid pt-2 pt-lg-5">
       <div className="row justify-content-center">
         <form
           className="col-10 col-sm-8 col-md-6 col-lg-5"

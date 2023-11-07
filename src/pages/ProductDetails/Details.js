@@ -77,9 +77,17 @@ function Details() {
               {details.product?.images.map((img, index) => (
                 <div
                   key={index}
-                  className={`carousel-item ${index == 0 ? "active" : ""}`}
+                  className={`carousel-item text-center ${
+                    index == 0 ? "active" : ""
+                  }`}
                 >
-                  <LoadImage width="500" height="500" src={img} alt="Image" />
+                  <LoadImage
+                    width="500"
+                    height="500"
+                    src={img}
+                    alt="Image"
+                    className="product-details-img"
+                  />
                 </div>
               ))}
             </div>

@@ -199,7 +199,7 @@ function Checkout() {
               </div>
               <div className="col-lg-4">
                 <SectionHeader title={t("checkout.order_total")} tag="h5" />
-                <div className="bg-light p-30 mb-5">
+                <div className="bg-light p-30 mb-2 mb-lg-5">
                   <div className="border-bottom">
                     <h6 className="mb-3">{t("checkout.products")}</h6>
                     {cart.cartProducts?.map((item) => (
