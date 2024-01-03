@@ -2,7 +2,7 @@
 
 **Mawgood** is an e-commerce website which offers you many categories and products to browse and buy.
 
-Click [Here](mawgood.vercel.app) to view website.
+Click [Here](https://mawgood.vercel.app) to view website.
 
 ## Main Features
 
